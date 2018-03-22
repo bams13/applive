@@ -1,0 +1,46 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+body{
+	background-image: url(fondo.gif);
+	background-attachment: fixed;
+}
+.principal{
+	width: 500px;
+	height: 230px; 
+	margin-top: 50px;
+	border: solid 3px cyan;
+
+}
+.adfly{
+width: 470px;
+height: 63px;
+border: solid 3px green;
+margin-top: 10px;
+float: right;
+margin-right:  10px;
+
+}
+.container{
+	width: 240px;
+	height: 40px;
+	border: solid 3px red;
+	float: center;
+	margin-top: 50px:;
+	
+}
+.container h1 a{
+	color: #FDFCFC;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+
+}
+.adfly1{
+width: 470px;
+height: 63px;
+border: solid 3px green;
+
+float: center;
+margin-top: 10px
+}
