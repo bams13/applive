@@ -1,0 +1,110 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+}
+body{
+	background-image: url(fondo2.gif);
+	background-attachment: fixed;
+}
+.principal{
+	width: 600px;
+	height: 600px; 
+	margin-top: 20px;
+	border: solid 3px cyan;
+}
+.texto1{
+	width: 420px;
+	height: 160px;
+	margin-top: 20px;
+}
+.texto1 p{
+	color: white;
+	font-family: Cursiva;
+	font-size: 36px;
+	margin-top: -40px;
+}
+.vinculo1{
+	width: 420px;
+	height: 300px;
+	float: center;
+	margin-top: -200px;
+
+}
+.contenedorsocial{
+	width: 40px;
+	height: 100px;
+	float: left;
+	margin-top: 190px;
+	z-index: 200;
+	position: fixed;
+}
+ .social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook  {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #FCE138;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #3b5998;}
+	.social ul li .icon-mail {background: #3b5998;}
+ 
+	.social ul li a:hover {
+		background: cyan; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+	.menu{
+	width: 350px;
+	height: 50px;
+	margin-top: -100px;
+}
+.menu nav ul{
+	width:350px ;
+	height: 30px;
+}
+.menu nav ul li{
+	float: center;
+	list-style: none;
+}
+.menu nav ul li a{
+	display: block;
+	font-family: tahoma;
+	font-size: 20px;
+	color: cyan;
+	text-decoration: none;
+
+	text-align: center;
+}
+.menu nav ul li a:hover{
+	color: white;
+}
+.fuego{
+	width: 500px;
+	height: 40px;
+border: solid 2px red;
+margin-top: 120px;
+float: right;
+margin-right: -40px;
+}
+.camara{
+	width: 80px;
+	height: 60px;
+	float: right;
+	margin-right:  -50px;
+}
+.camara2{
+	width: 80px;
+	height: 60px;
+	float: left;
+	margin-left:-140px;
+}
